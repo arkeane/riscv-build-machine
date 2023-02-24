@@ -1,6 +1,6 @@
 services:
   builder:
-    platform: linux/amd64
+    platform: linux/amd64 # Has to be amd64, otherwise the toolchain won't work
     build: .
     container_name: builder
     stdin_open: true
